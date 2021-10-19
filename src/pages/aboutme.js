@@ -7,7 +7,6 @@ return (
           <h2 className="section-title">
             About Me
           </h2>
-          <h2>Kyle Sorensen</h2>
           <p>
            Hi My name is Kyle Sorensen. I am a full stack web Developer based in Madison, WI.
           </p>

@@ -14,7 +14,7 @@ function Nav() {
             <a href="#contact-me">Contact Me</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="https://myresume.com"><span>Resume</span></a>
           </li>
         </ul>
       </nav>
