@@ -299,6 +299,12 @@ body {
   #run-buddy {
     background-image: url("../images/hero-bg.jpeg");
   }
+  #chefs-kiss {
+    background-image: url("../images/logo.png")
+  }
+  #wi-state-parks {
+    background-image: url('https://i2.wp.com/travelartsy.com/wp-content/uploads/2018/08/wisconsin-state-parks.jpg?fit=2000%2C942&ssl=1')
+  }
   .title {
     position: relative;
     top: 175px;
