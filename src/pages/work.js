@@ -23,7 +23,6 @@ function Work () {
         
         </div>
     </main>
-    https://ksore85.github.io/code-quiz/
         </>
     )
     }
