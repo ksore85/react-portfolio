@@ -9,7 +9,7 @@ return (
           </h2>
           <h2>Kyle Sorensen</h2>
           <p>
-           Hi My name is Kyle Sorensen. I am a full stack web developer, with a background in business development, based in Madison, WI. I
+           Hi My name is Kyle Sorensen. I am a full stack web Developer based in Madison, WI.
           </p>
         </div>
         </section>
