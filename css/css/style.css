@@ -1,0 +1,319 @@
+
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../images/technology-background-1632715.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: wheat;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: wheat;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }  
+
+  .section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color:cornflowerblue;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 100%;
+  }
+  .section-title p {
+      text-align: center;
+
+  } 
+
+/* tell browser to fix box model calculations */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .hero {
+    background-image: url(../images/technology-background-1632715.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 80%;
+    background-attachment:fixed;
+  }
+  
+  .hero-cta {
+    width: 35%;
+    text-align:left;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-form {
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: var(--secondary-color);
+    width: 40%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(252, 225, 56, 0.8);
+    border-radius: 15px;
+  }
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  
+  /* get rid of browser's margins and set background color */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* <main> */
+  main {
+    width: 80%;
+    /* center on page using auto for left/right */
+    margin: 50px auto;
+    /* add padding so html inside has space */
+    padding: 20px;
+    background-color: #fefeff;
+    border: 4px solid #393b4f;
+  }
+  
+  /* target <h2> element inside of <main> */
+  main h2 {
+    color:cornflowerblue;
+    /* set padding to 0 top, 10 right and left, and 20 bottom */
+    padding: 0 10px 20px;
+    border-bottom: 3px solid #393b4f;
+  }
+  
+  /* flex parent */
+  .flex-container {
+    /* create flexbox */
+    display: flex;
+    /* instruct it to break onto next line if it runs out of space */
+    flex-wrap: wrap;
+    /* put all unused space between items */
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* flex child */
+  .flex-item {
+    /* make each one 45%, putting 10% between each element on the page */
+    background-image: url("https://via.placeholder.com/150");
+    width: 45%;
+    /* rounded corners */
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: bold;
+  
+    /* put space between each one vertically */
+    margin-bottom: 15px;
+  
+    /* for files in local images folder, use url('../images/file-name.jpg') */
+    /* background-image: url('https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder'); */
+  
+    /* tell background to fit box no matter what */
+    background-size: cover;
+  
+    /* crop it at the center */
+    background-position: center;
+  
+    /* padding top and bottom 20px, 0 for left/right */
+    padding: 20px 0;
+  
+    /* set minimum heigh value so there's room */
+    min-height: 250px;
+  
+    /* rather than use position...use flexbox and create column instead of row */
+    display: flex;
+    flex-direction: column;
+  }
+  .first {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* for text area inside of flex item */
+  .flex-item span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 30%;  
+    color: blue;
+    padding: 10px 5px;
+    text-align:left;
+  }
+
+  .contact h2 {
+    color: var(--primary-color);
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/technology-background-1632715.jpeg");
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  .contact-info iframe {
+    height: 400px;
+  }
+  
+  .contact-info div {
+    color: wheat;
+  }
+  
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    color:wheat;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .75);
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+  background-color:rgba(255, 255, 255, 1);
+  }
+  
+  .contact-form button {
+    width: 100%;
+    border: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+  
+  .contact-form button:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+  }
+  
+  .contact-info a {
+    color: var(--primary-color);
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #393b4f;
+    color: #fb3e55;
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  #run-buddy {
+    background-image: url("../images/hero-bg.jpeg");
+  }
+  #chefs-kiss {
+    background-image: url("../images/logo.png")
+  }
+  #wi-state-parks {
+    background-image: url('https://i2.wp.com/travelartsy.com/wp-content/uploads/2018/08/wisconsin-state-parks.jpg?fit=2000%2C942&ssl=1')
+  }
+  #work-day-scheduler {
+    background-image: url("../images/scheduler.png")
+  }
+  #code-quiz {
+    background-image: url("../images/codeQuiz.png");
+  }
+  .title {
+    position: relative;
+    top: 175px;
+
+    
+  }
