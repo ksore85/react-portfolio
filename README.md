@@ -1,6 +1,6 @@
-# react-portfolio
+# The web development portfolio for Kyle Sorensen
 ## Description
-
+This is the web development portfolio for Kyle Sorensen. 
 
 ## Table of Contents
 - [Features](#features)
@@ -17,10 +17,10 @@
  - ReactJS
 
 ## Deployed Application
-[The deployed application can be found at this address.]()
+[The deployed application can be found at this address.](https://ksore85.github.io/react-portfolio/)
 
 ## Screenshot
-![Screenshot]()
+![Screenshot](public/images/Portfolio.png)
 
 ## License
 [![license-MIT-blue.png](https://img.shields.io/badge/license-MIT-blue)](#License)
